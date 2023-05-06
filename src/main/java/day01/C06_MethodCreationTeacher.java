@@ -11,7 +11,10 @@ public class C06_MethodCreationTeacher {
         // taban kenari 3 ve yuksekligi 4 olan prizmanin hacmi --> 3*3*4 = 36
 
         System.out.println(karePrizmaHacimBul(3, 4));
-        System.out.println(karePrizmaHacimBul(tabanKenar, yukseklik));
+
+
+       int sonuc=kupAl(5);
+        System.out.println(sonuc);
 
 
     }
@@ -24,5 +27,8 @@ public class C06_MethodCreationTeacher {
 
         return hacim;
 
+    }
+    public static int kupAl(int a){
+        return a*a*a;
     }
 }
