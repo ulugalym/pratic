@@ -33,6 +33,8 @@ public class C04_ScannerTeacher {
         System.out.println("=============================");
         //tek sout ile yapmak istesem -> \n ile yaparız -> imleci bir alt satıra gecirir
         System.out.println("  "+ ch+ "  \n " + ch + " "+ ch + " \n" +ch +" "+ ch + " "+ ch);
+        System.out.println("==============================");
+        System.out.println(""+ch+ch+ch+ch+"\n  "+ch+" "+"\n "+ch+"  "+"\n"+ch+ch+ch+ch);
 
 
 

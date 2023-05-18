@@ -11,21 +11,22 @@ public class C02_MethodCreation {
          sayi1=20 ve sayi2=10
          */
          public static void main(String[] args) {
-             Scanner scan =new Scanner(System.in);
-             System.out.println("Lutfan birinji sayiyi giriniz");
+             Scanner scan=new Scanner(System.in);
+             System.out.println("Lutfan birinci sayiyi giriniz..");
              int sayi1=scan.nextInt();
-             System.out.println("Lutfan ikinci sayiyi giriniz");
+             System.out.println("Lutfan ikinci sayiyi giriniz..");
              int sayi2=scan.nextInt();
-             System.out.println("swaptan once sayi1 : "+sayi1);
-             System.out.println("swaptan once sayi2 : "+sayi2);
-             swaplaYazdir(sayi1,sayi2);
+             System.out.println("sayi1 = " + sayi1);
+             System.out.println("sayi2 = " + sayi2);
+             swapYap(sayi1,sayi2);
+
          }
-
-    public static void swaplaYazdir(int sayi1,int sayi2) {
-
-
-        int sayi3=sayi2;sayi2=sayi1;sayi1=sayi3;
-        System.out.println("swapdan sonra sayi1 : " + sayi1);
-        System.out.println("swapdan sonra sayi2 : " + sayi2);
-    }
+         public static void swapYap(int sayi1,int sayi2){
+             int sayi3;
+             sayi3=sayi2;
+             sayi2=sayi1;
+             sayi1=sayi3;
+             System.out.println("sayi1 = " + sayi1);
+             System.out.println("sayi2 = " + sayi2);
+         }
 }

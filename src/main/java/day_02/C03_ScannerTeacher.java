@@ -20,6 +20,10 @@ public class C03_ScannerTeacher {
 
         boolean sonuc= karelerEsitMi(x,y);
         System.out.println("sonuc = " + sonuc);
+        boolean sonuc1=hangisiBuyuk(x,y);
+        System.out.println("sonuc1 = " + sonuc1);
+        int sonuc2=toplam(x,y);
+        System.out.println("sonuc2 = " + sonuc2);
 
     }
 
@@ -31,6 +35,10 @@ public class C03_ScannerTeacher {
         return sonuc;
 
     }
-
-
+    public static boolean hangisiBuyuk(int x,int y){
+        return x*5>y*8;
+    }
+    public static int toplam(int x, int y){
+        return x*x+y*y;
+    }
 }
